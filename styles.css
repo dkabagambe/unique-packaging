@@ -34,8 +34,9 @@ body {
   padding: 2rem 0;
 }
 p {
-  font-family: "Adobe Garamond Pro", serif;
+  /* font-family: "Adobe Garamond Pro", serif; */
   font-size: 20px;
+  font-family: "Libre Garamond", serif;
 }
 .navigation img {
   width: 11vh;
@@ -584,7 +585,6 @@ section {
 #footer p {
   font-size: 20px;
   line-height: 150%;
-  /* font-family: "Libre Garamond", serif; */
   font-family: "Iowan Old Style", serif;
 }
 .copy p {
@@ -610,10 +610,17 @@ section {
   text-decoration: none;
   font-family: "Adobe Garamond Pro", serif;
   font-size: 18px;
+  padding-bottom: 40px;
 }
 .footerList {
   list-style: none;
   text-align: left;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .footerList > ul,
 ol {
