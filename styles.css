@@ -250,7 +250,7 @@ ul li a:hover {
     display: inline-block;
     width: 6px;
     height: 6px;
-    color: greenyellow;
+    background-color: #ffffff;
   }
 }
 
@@ -264,7 +264,7 @@ ul li a:hover {
     top: 50%;
     width: 8px;
     height: 8px;
-    color: greenyellow;
+    background-color: greenyellow;
     font-size: 3px;
   }
 }
