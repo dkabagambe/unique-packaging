@@ -196,7 +196,7 @@ ul li a:hover {
 }
 
 .swiper-pagination-bullet-active {
-  color: greenyellow;
+  background-color: greenyellow;
 }
 .swiper-button-prev,
 .swiper-button-next {
@@ -237,6 +237,9 @@ ul li a:hover {
   .swiper-container {
     height: 500px;
   }
+  .swiper-pagination-bullet-active {
+    background-color: greenyellow;
+  }
   .swiper-button-prev,
   .swiper-button-next {
     position: absolute;
@@ -257,6 +260,9 @@ ul li a:hover {
 @media (max-width: 768px) {
   .swiper-container {
     height: 480px;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: greenyellow;
   }
   .swiper-button-prev,
   .swiper-button-next {
