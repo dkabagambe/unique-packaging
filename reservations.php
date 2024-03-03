@@ -5,15 +5,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $subject = $_POST['subject'];
     $message = $_POST['message'];
     
-
     $to = 'kisitujohn86@gmail.com';
     $subject = 'General Inquiry';
+    
     $message = "Name: $name\n\n";
     $message .= "Email: $email\n\n";
     $message .= "Subject: $subject\n\n";
-    $message .= "Check-in Date: $message\n\n";
+    $message .= "Message: $message\n\n";
     
-
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";
 
