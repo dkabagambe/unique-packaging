@@ -35,7 +35,7 @@ body {
 }
 p {
   /* font-family: "Adobe Garamond Pro", serif; */
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Libre Garamond", serif;
 }
 .navigation img {
@@ -301,11 +301,12 @@ ul li a:hover {
 }
 
 .blackGrey p {
-  font-size: 16px !important;
+  font-size: 1rem !important;
   line-height: 1.42857143;
   text-transform: uppercase;
   color: #ffffff;
   font-family: "Adobe Garamond Pro", serif;
+  padding: 15px;
 }
 .uganda-time {
   margin-right: 10px;
@@ -570,8 +571,8 @@ section {
   padding-right: 15px;
 }
 #footer p {
-  font-size: 20px;
-  line-height: 150%;
+  font-size: 18px;
+  line-height: 130%;
   font-family: "Iowan Old Style", serif;
 }
 .copy p {
@@ -579,6 +580,8 @@ section {
   color: #23ee8c;
   font-weight: 300;
   font-size: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 .footer-left {
   font-size: 16px;
@@ -596,7 +599,7 @@ section {
   color: #fefefe;
   text-decoration: none;
   font-family: "Adobe Garamond Pro", serif;
-  font-size: 18px;
+  font-size: 15px;
   padding-bottom: 40px;
 }
 .footerList {
@@ -638,6 +641,14 @@ ol {
   .footerList > ul,
   ol {
     padding: 1px;
+  }
+  .copy p {
+    font-family: "Bradley Hand", cursive;
+    color: #23ee8c;
+    font-weight: 500;
+    font-size: 15px !important;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 /* styling for the top button */
@@ -731,7 +742,7 @@ img.rsImg {
 }
 .menulinkdiv {
   display: inline-block;
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Iowan Old Style", serif;
 }
 .menulinkdiv a {
@@ -741,7 +752,7 @@ img.rsImg {
   background-color: transparent;
   font-weight: 500;
   cursor: pointer;
-  padding: 10px 2px;
+  padding: 5px 2px;
 }
 .menusublinks .active .sublink-button {
   border-bottom: solid #90d3c7 1px;
@@ -761,8 +772,9 @@ a:focus {
   content: "|";
   font-size: 28px;
   font-family: "Iowan Old Style", serif;
-  font-weight: 300;
+  font-weight: 600;
   margin: 2px 20px;
+  color: #000;
 }
 .margBottom3em {
   margin-bottom: 0em;
@@ -775,7 +787,7 @@ a:focus {
   font-size: 1rem;
   color: #000 !important;
   background-color: #14ca72;
-  padding: 4px 70px;
+  padding: 3px;
   margin-top: 10px;
   display: inline-block;
   text-align: center;
@@ -785,6 +797,7 @@ a:focus {
 }
 .button1:hover {
   background-color: #23d880;
+  line-height: 150%;
 }
 /* 
 the styling for the gallery */
@@ -1217,9 +1230,11 @@ the styling for the gallery */
   white-space: pre;
 }
 #qlwapp.qlwapp-button .qlwapp-toggle {
-  height: 40px;
+  height: 37px;
   white-space: nowrap;
-  padding: 12px 24px;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 #qlwapp.qlwapp-button .qlwapp-toggle .qlwapp-icon {
   margin: 0 12px 0 0;
